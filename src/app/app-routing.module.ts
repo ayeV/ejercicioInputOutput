@@ -6,9 +6,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 const routes: Routes = [
-  {path: 'listadoEntidad' , component: ControlEntidadComponent},
   {path: '' , component: BienvenidoComponent},
-  {path: 'controlEntidad' , component: ControlEntidadComponent},
+  {path: 'listadoEntidad' , component: ControlEntidadComponent},
+  {path: 'controlEntidad' , component: ControlEntidadComponent}
 
 
 ];
